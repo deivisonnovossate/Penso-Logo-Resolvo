@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 03 - Objeto pessoa</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Objeto Pessoa</h1>
+    </header>
+
+    <div class="desafio">
+
+        <p>
+            Crie um documento html com um formulário, com os campos: 
+nome, idade e data de nascimento.
+        </p>
+        <p>
+            Dicas <br>
+            - Revisar vídeo de Classes e objetos. <br>
+           <a href="https://www.w3schools.com/js/js_objects.asp">w3schools</a>  
+        </p>
+        
+    </div>
+    <main>
+        <form id="form">
+            <fieldset>
+                <legend>Digite os dados abaixo</legend>
+
+                <div class="campos">
+                    <div>
+                        <label  >Nome</label>
+                     <input type="text" id="nome">
+                    </div>
+                    <div>
+                        <label  >Idade</label>
+                        <input type="number" id="idade">
+
+                    </div>
+                    <div>
+                        <label  >Data de Nascimento</label>
+                        <input type="date" id="data">
+                     </div>
+                     <div>
+                        <button onclick="dadosPessoa()">Enviar</button>
+                     </div>
+
+                 </div>
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <button>
+            <a href="https://trusted.school/">TRUSTED SCHOOL</a>
+        </button>
+    </footer>
+
+    
+</body>
+</html>
