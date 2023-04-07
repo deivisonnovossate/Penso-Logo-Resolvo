@@ -13,12 +13,37 @@ header h1{
     margin-bottom: 40px;
 }
 
+main {
+    margin-top: 40px;;
+}
+
 main h2{
     margin-top: 40px;
 }
 
 footer {
     margin-top: 80px;
+}
+
+main input {
+    border-radius: 4px;
+    gap: 10px;
+    background-color: #c12128;
+    padding: 8px 16px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+main button {
+    border-radius: 4px;
+    gap: 10px;
+    background-color: #c12128;
+    padding: 8px 16px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
 }
 
 
